@@ -2,4 +2,4 @@
 - name: install java packages
   apt: pkg={{ item }} state=latest
   with_items:
-    - openjdk-7-jdk
+    - openjdk-8-jdk
