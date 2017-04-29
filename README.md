@@ -23,13 +23,13 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: loranger.debian-java }
+         - { role: cowops.debian-java }
 
 Tasks
 -----
 
   - Install [OpenJDK](http://www.java.com/)
-  
+
 
 License
 -------
