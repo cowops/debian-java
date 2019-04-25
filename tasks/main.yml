@@ -1,5 +1,8 @@
 ---
 - name: install java packages
-  apt: pkg={{ item }} state=latest
-  with_items:
-    - openjdk-8-jdk
+  apt:
+    name: {{ packages }}
+    state: latest
+  vars:
+    packages:
+      - openjdk-8-jdk
